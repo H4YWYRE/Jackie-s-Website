@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<title> Work</title>
+
+<link rel="icon" type="img/png" sizes="32x32" href="LogoMakr_2tf4Ud.png">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <nav>
+        <ul>
+            <li> <a class="home" href="index.html">Home </a> </li> |
+            <li> <a class="Aboutme" href="aboutme.html">About me</a></li> |
+            <li> <a class="work" href="work.html">Work</a></li> |
+            <li><a class="contactme" href="contact.html">Contact me</a></li> |
+        </ul>
+    </nav>
+
+
+    <h1>Work</h1>
+<link rel="stylesheet" href="work.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c9f6e32cfd.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+<p>Here are all my designs for various busniess and events I have created in my career.<br> 
+    Have a look! </p>
+    <div class="slide-show">
+        <img class="mySlides" src="poster.jpg" style="width: 50%;">
+        <img class="mySlides" src="Album1.jpg" style="width:50%">
+        <img class="mySlides" src="Album2.jpg" style="width:50%">
+        
+      
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+
+
+</body>
+
+
+

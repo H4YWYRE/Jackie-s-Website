@@ -1,0 +1,56 @@
+body{
+    background-color:#5c8cac;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.intro{
+    color: #fff;
+    font-size: 20px;
+}
+
+nav ul{
+    font-size: 35px;
+    color: #fff;
+ 
+}
+
+li a {
+    padding: 14px, 16px;
+    word-spacing: normal;
+    
+}
+
+
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+a:link{
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+}
+a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: peachpuff;
+    text-decoration: none;
+}
+footer{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    color: #fff;
+}
+
+.socials{
+    font-size: 40px;
+}
+
+.socials-title{
+    color: #fff;
+}

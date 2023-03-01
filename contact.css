@@ -1,0 +1,88 @@
+body{
+    background-color:#5c8cac;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    color: #fff;
+}
+
+.menu-bar{
+    font-family: 'Libre Baskerville', serif;
+    text-align: right;
+    text-decoration: none;
+    word-spacing: normal;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 65px;
+    color: #fff;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+a:link{
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+}
+a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: peachpuff;
+    text-decoration: none;
+}
+
+.contact-form{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.form{
+    margin: 40px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+
+.button{
+    border-radius: 20px;
+    color: #fff;
+    background-color: #eb906e;
+    margin-top: 18px;
+    padding: 10px;
+    font-size: 12px;
+    border:none;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+}
+
+footer{
+    position: fixed;
+}
